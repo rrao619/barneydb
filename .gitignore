@@ -1,0 +1,54 @@
+# Environment and secrets
+.venv/
+venv/
+env/
+*.env
+keys
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.egg-info/
+dist/
+build/
+*.egg
+
+# uv
+.uv/
+
+# Data and assets (do not version)
+*.zip
+*.pdf
+*.xlsx
+*.xls
+*.csv
+frozen/
+transcripts/
+meeting_transcripts/
+markdown combined/
+ATOMIC_MEETINGS_CANONICAL_462/
+APPM_MEETINGS_FOR_NOTION_FULLY_ATOMIC*/
+APPM_MEETING_TRANSCRIPTS_FLAT*/
+Candidate_2_/
+Candidate_C_/
+Candidate_D_/
+
+# Docs/data that are not code
+*.md
+!README.md
+*.docx
+notion_files.csv
+glossary.md
+glossary_abbrev.csv
+glossary_abbrev_with_and_without_period.csv
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
